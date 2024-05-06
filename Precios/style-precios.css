@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+* {
+        padding: 0;
+        margin: 0;
+    }
+html{
+    height: 100%;
+}
+
+body{
+        height: 100%;
+        background-color: rgba(18, 41, 76, 0.747);
+        background-size: 750em;
+        backdrop-filter: blur(3px);
+}
+
+    /*----MENU----*/
+    .menu {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        font-family: "Roboto", serif;
+    }
+    
+    .menu nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    .menu ul {
+        list-style: none;
+        background: rgb(6, 25, 76);
+        border-radius: 40px 40px 40px 40px;
+        box-shadow: 2px 10px 20px rgb(18, 41, 76);
+        display: inline-flex;
+        padding: 1em 30px;
+        margin-top: 20px;
+    }
+    .menu li {
+        padding: 0.5vw 1.2vw;
+    
+    }
+    
+    .menu a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .menu nav ul li:hover{
+        background: rgba(255, 255, 255, 0.56);
+        transition: 0.4s ease-in-out;
+        box-shadow: 2px 5px 10px rgb(6, 25, 76);
+        border-radius: 20px;
+    }
+    
+    .menu i{
+        margin-left: 20px;
+    }
+    
+    .login-nav{
+        background: rgba(255, 255, 255, 0.83);
+        border-radius: 40px;
+        padding: 0 20px;
+    }
+    
+    .logo-a{
+        align-items: center;
+        justify-content: center;
+        width: 20%;
+        height: 0;
+    }
+    .logo{
+        
+        z-index: 1;
+        width: 65%;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+
+/*----Contenido----*/
+
+
+/*TABLA PRECIO*/
+table{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+table th{
+    background: rgb(69, 69, 77);
+    font-size: 30px;
+    padding: 30px;   
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+    text-shadow: 1px 3px 4px rgb(96, 107, 134);
+}
+
+table tr{
+    background-color: #797979da;
+  }
+
+tr td{
+    border: 2px solid gray;
+    padding: 22px 35px;
+}
+
+.precio-td{
+    font-size: 30px;
+    padding: 18px;
+}
+
+.precio-td strong{
+    color: rgb(63, 63, 63);
+}
+
+tr td a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 1s;
+    background: rgb(69, 69, 77);
+    padding: 10px 60px;
+
+}
+
+td a:hover{
+    background: rgba(18, 41, 76, 0.418);
+    padding-bottom: 15px;
+
+}
+
+/*************/
+
+
+/*SECTIONS*/
+
+.descripcion-precios{
+    margin-left: 270px;
+}
+.p1{
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    letter-spacing: 0;
+    color: white;
+    background: rgb(139, 155, 175);
+    padding: 50px 500px 20px 20px;
+    border-radius: 20px;
+    margin: 50px 20% 0 50px;
+    box-shadow: 10px 2px 50px rgb(139, 155, 175);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1 h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.bronce{
+    position: absolute;
+    height: 50%;
+    margin: 50px 40em;
+    border-radius: 20px;
+    box-shadow: 2px 10px 40px rgb(6, 25, 76);
+}
+
+.plata{
+    border-radius: 20px;
+    position: absolute;
+    height: 50%;
+    margin: 50px 40em;
+    box-shadow: 2px 10px 40px rgb(6, 25, 76);
+}
+
+.oro{
+    border-radius: 20px;
+    position: absolute;
+    height: 50%;
+    margin: 40px 40em;
+    box-shadow: 2px 10px 40px rgb(6, 25, 76);
+}
+
+.diamante{
+    border-radius: 20px;
+    position: absolute;
+    height: 50%;
+    margin: 50px 40em;
+    box-shadow: 2px 10px 40px rgb(6, 25, 76);
+}
+
+.p2{
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    letter-spacing: 0;
+    color: white;
+    background: rgb(139, 155, 175);
+    padding: 50px 500px 20px 20px;
+    border-radius: 20px;
+    margin: 50px 20% 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 2px 50px rgb(139, 155, 175);
+}
+
+.p2 h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.p3{
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    letter-spacing: 0;
+    color: white;
+    background: rgb(139, 155, 175);
+    padding: 50px 500px 20px 20px;
+    border-radius: 20px;
+    margin: 50px 20% 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 2px 50px rgb(139, 155, 175);
+}
+
+.p3 h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.p4{
+    font-size: 1.125rem;
+    line-height: 1.5625rem;
+    letter-spacing: 0;
+    color: white;
+    background: rgb(139, 155, 175);
+    padding: 50px 520px 20px 30px;
+    border-radius: 20px;
+    margin: 50px 20% 0 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 10px 2px 50px rgb(139, 155, 175);
+}
+
+.p4 h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: center;
+}
+
+.navegacion ul li{
+    padding: 10px 30px;
+}
+
+.navegacion ul li a{
+    color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegacion ul {
+    list-style: none;
+    border-radius: 40px 40px 40px 40px;
+    display: inline-flex;
+    padding: 1em 30px;
+    margin-top: 20px;
+    box-shadow: 2px 10px 20px rgb(63, 67, 75);
+    background: rgba(121, 113, 113, 0.589);
+}
+.navegacion li {
+    padding: 0.5vw 1.8vw;
+    transition: 1s;
+    margin-right: 20px;
+}
+
+.navegacion a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navegacion ul li:hover{
+    color: white;
+    background: rgb(138, 145, 156);
+    transition: 0.4s ease-in-out;
+    box-shadow: 2px 5px 10px rgb(111, 112, 114);
+    border-radius: 20px;
+
+}
+
+.probabilidades{
+    background: rgba(255, 255, 255, 0.589);
+    padding: 50px;
+    margin: 63px 20em 0px 3em;
+     border-radius: 20px;
+     font-family: Roboto;
+     box-shadow: 10px 2px 50px rgb(139, 155, 175);
+}
+
+.probabilidades h1{
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(70, 74, 82);
+    font-size: 40px;
+}
+.titulo-sorteo{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+footer{
+    background: rgb(40, 42, 55);
+    color: white;
+    padding: 20px;
+    font-family: Roboto;
+    position: relative;
+    margin-top: 70px;
+}
+
+footer strong{
+    font-size: 20px;
+}
+
+.calle{
+float: right;
+position: relative;
+bottom: 20px;
+}
+
+
+
+/*************/

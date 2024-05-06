@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alex Aperador Salcedo">
+    <meta name="description" content="casino, HTML, CSS, JavaScript, BlackJack, SlotMachine, Indu, Roulette, +18">
+    <link rel="stylesheet" type="text/css" href="style-slotmachine.css">
+    <link rel="shortcut icon" href="archivos-slotmachine/logo.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>SLOT-MACHINE</title>
+</head>
+
+<body>
+    <div class="logo-a">
+        <a href="../../index.html">
+            <img src="../../Pagina principal/archivos/contenido-logo.png" alt="logo" class="logo">
+        </a>
+    </div>
+    <header class="menu">
+        <nav>
+            <ul>
+                <li><a href="../../index.html#Juegos">JUEGOS
+                    <i class='bx bxs-mouse-alt' ></i></a>
+                </li>
+                <li><a href="../../REGLAS/index-reglas.html">REGLAS
+                    <i class='bx bx-book-bookmark'></i></a>
+                    <li><a href="../../Formulario/index-formulario.html">FORMULARIO
+                        <i class='bx bx-clipboard'></i></a>
+                    </li>
+                    <li><a href="../../Contacto/index-contacto.html">CONTACTA
+                        <i class='bx bxs-contact'></i></a>
+                    </li>
+                    <li>
+                        <a href="../../Precios/index-precios.html">PRECIO
+                            <i class='bx bxs-coin-stack'></i></a>
+                    </li>
+                    <li><a href="../../Login/index-login.html">LOGIN
+                        <i class='bx bxs-user'></i></a>
+                    </li>
+            </ul>
+        </nav>
+    </header>
+
+    <header id="cabecera">
+        <h1>WELCOME BACK TO SLOT-MACHINE!</h1>
+    </header>
+    <main id="monedas">
+        <table id="tablaMonedas">
+            <tr>
+                <td><input type="number" id="inputMonedas"></td>
+                <td><input type="button" id="introducirMonedas"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><span id="numeroTotal"></span></td>
+            </tr>
+        </table>
+    </main>
+    <main id="slot-machine">
+        <div id="maquina">
+            <div class="slotmachine-fondo">
+                <img src="archivos-slotmachine/machine.png" alt="slotmachine-fondo">
+            </div>
+            <table id="tablaMaquina">
+                <tr>
+                    <div id="imagen-logo">
+                        <td class="celda"><img id="slot1" src="archivos-slotmachine/logo.png" ></td>
+                    <td class="celda"><img id="slot2" src="archivos-slotmachine/logo.png" ></td>
+                    <td class="celda"><img id="slot3" src="archivos-slotmachine/logo.png" ></td>
+                    </div>
+                    <td><img id="palanca" src="archivos-slotmachine/palancaUP.png"></td>
+                </tr>
+            </table>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="script-slotmachine.js"></script>
+</body>
+</html>

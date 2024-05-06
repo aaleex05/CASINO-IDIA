@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+  
+  body{
+    background: url(archivos-slotmachine/fondo.jpg) no-repeat;
+    backdrop-filter: blur(20px);
+    background-size: 100%;
+}
+
+
+/*----MENU----*/
+.menu {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", serif;
+}
+
+.menu nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu ul {
+  list-style: none;
+  background: rgb(6, 25, 76);
+  border-radius: 40px 40px 40px 40px;
+  box-shadow: 2px 10px 20px rgb(18, 41, 76);
+  display: inline-flex;
+  padding: 1em 30px;
+  margin-top: 20px;
+}
+.menu li {
+  padding: 0.5vw 1.2vw;
+
+}
+
+.menu a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu nav ul li:hover{
+  background: rgba(255, 255, 255, 0.56);
+  transition: 0.4s ease-in-out;
+  box-shadow: 2px 5px 10px rgb(6, 25, 76);
+  border-radius: 20px;
+}
+
+.menu i{
+  margin-left: 20px;
+}
+
+.login-nav{
+  background: rgba(255, 255, 255, 0.83);
+  border-radius: 40px;
+  padding: 0 20px;
+}
+
+.logo-a{
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+  height: 0;
+}
+.logo{
+  
+  z-index: 1;
+  width: 65%;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.slotmachine-fondo img{
+  position: absolute;
+  width: 80%;
+  right: 10em;
+  top: 150px;
+}
+  
+  #cabecera {
+    text-align: center;
+    font-family: Monster;
+    font-size: 2em;
+    font-family: Arial Black; 
+    font-weight: bold; 
+    color: rgb(6, 25, 76); 
+    text-shadow: 0 1px 0 rgb(18, 41, 76), 0 2px 0 , 0 3px 0 rgb(31, 72, 133), 0 4px 0 rgb(31, 72, 133), 0 5px 0 rgb(31, 72, 133), 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+
+  #introducirMonedas{
+    position: relative;
+    top: 32.5em;
+    left: 12em;
+    height: 56px;
+    width: 56px;
+    z-index: 1;
+    background: red;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #inputMonedas {
+    width: 60px;
+    color: white;
+    font-weight: bold;
+    padding: 20px 150px;
+    border: none;
+    outline: none;
+    background: none;
+    height: 5px;
+    position: relative;
+    top: 8.65em;
+    left: 4.2em;
+    z-index: 1;
+    font-size: 50px;
+  }
+  
+  .textoTabla {
+    font-size: 25px;
+  }
+  
+  #monedas {
+    margin-top: 3%;
+    text-align: center;
+  }
+  
+  #numeroTotal{
+    font-size: 55px;
+    position: relative;
+    top: 6.65em;
+    font-weight: bold;
+    right: 4em;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 5;
+  }
+  
+  table {
+    margin: 0px auto;
+  }
+
+  
+  #tragaperras {
+    margin-top: 2%;
+  }
+  
+  
+  #slot1,
+  #slot2,
+  #slot3{
+    top: 20px;
+    width: 12em;
+  }
+
+  #slot1{
+    position: relative;
+    right: 20px;
+  }
+
+  #slot2{
+    position: relative;
+    left: 23px;
+
+  }
+
+  #slot3{
+    position: relative;
+    left: 60px;
+  }
+
+  #palanca{
+    position: absolute;
+    left: 89em;
+    width: 15%;
+    display: block;
+  }
+
+  #tablaMaquina{
+    width: 20px;
+  }

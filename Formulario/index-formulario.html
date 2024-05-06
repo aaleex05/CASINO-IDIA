@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style-formulario.css">
+    <meta name="author" content="Alex Aperador Salcedo">
+    <meta name="description" content="casino, HTML, CSS, JavaScript, BlackJack, SlotMachine, Indu, Roulette, +18">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="../GAMES/SLOT-MACHINE/archivos-slotmachine/logo.png" type="image/x-icon">
+</head>
+<body>
+<div class="logo-a">
+    <a href="../index.html">
+        <img src="../Pagina principal/archivos/contenido-logo.png" alt="logo" class="logo">
+    </a>
+</div>
+<header class="menu">
+    <nav>
+        <ul>
+            <li><a href="../index.html#Juegos">JUEGOS
+                <i class='bx bxs-mouse-alt' ></i></a>
+            </li>
+            <li><a href="../REGLAS/index-reglas.html">REGLAS
+                <i class='bx bx-book-bookmark'></i></a>
+                <li><a href="../Formulario/index-formulario.html">FORMULARIO
+                    <i class='bx bx-clipboard'></i></a>
+                </li>
+                <li><a href="../Contacto/index-contacto.html">CONTACTA
+                    <i class='bx bxs-contact'></i></a>
+                </li>
+                <li>
+                    <a href="../Precios/index-precios.html">Precios
+                        <i class='bx bxs-coin-stack'></i></a>
+                </li>
+                <li><a href="../Login/index-login.html">LOGIN
+                    <i class='bx bxs-user'></i></a>
+                </li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container-all">
+    <div class="imagen">
+        <img src="archivos-formulario/registro-form.jpg" alt="registro-indu">
+    </div>
+       <div class="main">
+                    <div class="content-form">
+                       <form class="form" action="http://192.168.2.211/virtual211/uf5/CASINO/HelloWorld.php" method="post"> 
+                       <h3 class="titulo-sorteo">SORTEO MENSUAL</h3>
+                            <div class="nombre-input">
+                                <input type="text" name="Nombre" placeholder="" id="Nombre">
+                                <label for="Nombre">Nombre<i class='bx bx-user' ></i></label>
+                            </div>
+
+                            <div class="segundo-input">
+                                <input type="text" name="Segundo nombre" placeholder="" id="Segundo nombre">
+                                <label for="Segundo nombre">Segundo Nombre<i class='bx bx-rename' ></i></label>
+                            </div>
+
+                            <div class="fecha-input">
+                                <input type="date" name="fecha" placeholder="" id="fecha">
+                                <label for="fecha">Fecha de Nacimiento<i class='bx bx-calendar' ></i></label>
+                            </div>
+                            <div class="radio-buttons">
+                                <p>Nivell acadèmic</p>
+                            <label>
+                                <input type="radio" name="nivell academic">
+                                <span>ESO</span>
+                                </label>
+    
+                            <label>
+                                <input type="radio" name="nivell academic" >
+                                <span>BATX/Graus</span>
+                                </label>
+    
+                            <label>
+                                <input type="radio" name="nivell academic">
+                                <span>Estudis Universitaris</span>
+                                </label>
+    
+                            <label>
+                                <input type="radio" name="nivell academic">
+                                <span>Altres</span>
+                                </label>
+                            </div>
+
+                            <div class="eleccion">
+                                <p class="radio-buttons">Preferencia</p>
+                                <label for="eleccion">
+                                    <input type="checkbox" name="100 Spins">
+                               100 Spins</label>
+                               <label for="eleccion">
+                                <input type="checkbox" name="100 Euros">
+                           100 Euros</label>
+                            </div>
+
+                            <div class="obs-input">
+                                <textarea name="Observaciones" id="Observaciones" placeholder=""></textarea>
+                                <label for="Observaciones">Observacions<i class='bx bx-search-alt'></i></label>  
+                            </div>  
+
+                        <div class="button-form">
+                            <button type="submit" class="btn-form" id="enviar">Enviar</button>
+                            <button type="reset" class="btn-form" id="borrar">Reset</button>
+                        </div>
+                        </form>
+                        
+                    </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>Alex Aperador Salcedo</p>
+    <strong>CASINO IDIA</strong>
+    <p class="calle">Carrer de Juvenal, 1</p>
+    <br>
+    <p class="calle">08206 Sabadell</p>
+</footer>
+
+    
+   
+</body>
+</html>

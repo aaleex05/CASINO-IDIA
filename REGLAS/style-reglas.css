@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(
+        50deg,
+        rgba(40, 42, 55, 0.705) 0%,
+        rgba(40,42,55,0.7))
+}
+
+/*----MENU----*/
+.menu{
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", serif;
+    z-index: 1;
+}
+
+.menu nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul {
+    list-style: none;
+    background: rgb(6, 25, 76);
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 2px 10px 20px rgb(18, 41, 76);
+    display: inline-flex;
+    padding: 1em 30px;
+    margin-top: 20px;
+}
+.menu li {
+    padding: 0.5vw 1.2vw;
+
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu nav ul li:hover{
+    background: rgba(255, 255, 255, 0.56);
+    transition: 0.4s ease-in-out;
+    box-shadow: 2px 5px 10px rgb(6, 25, 76);
+    border-radius: 20px;
+}
+
+.menu i{
+    margin-left: 20px;
+}
+
+.login-nav{
+    background: rgba(255, 255, 255, 0.83);
+    border-radius: 40px;
+    padding: 0 20px;
+}
+
+
+.logo-a{
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 0;
+    z-index: 20;
+}
+.logo{
+        width: 65%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/*****CONTENIDO*****/
+
+
+.reglas-escritas{
+    font-family: Roboto;
+    margin-top: 55px;
+}
+
+.regla1{
+    background: rgb(40, 42, 55);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 63em 163px 43px;
+    width: 42em;
+    position: relative;
+    margin: 80px;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 5px 2px 80px rgba(40, 42, 55, 0.705);
+}
+
+.regla2{
+    background-color: rgb(40, 45, 55);
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60em 163px 43px;
+    width: 45em;
+    position: relative;
+    color: white;
+    margin: 80px;
+    border-radius: 30px;
+    box-shadow: 5px 2px 80px rgb(40, 42, 55);
+}
+
+.regla1 img{
+    position: absolute;
+    height: 80%;
+    left: 50%;
+    border-radius: 20px;
+    bottom: 85px;
+    box-shadow: 5px 2px 80px rgb(72, 75, 97);
+}
+
+.regla2 img{
+    position: absolute;
+    height: 80%;
+    left: 50%;
+    border-radius: 20px;
+    bottom: 85px;
+    box-shadow: 5px 2px 80px rgb(72, 75, 97);
+}
+
+.regla1 h2{
+    color: rgb(122, 127, 163);
+    font-size: 40px;
+    text-align: center;
+}
+
+.regla2 h2{
+    color: rgb(122, 127, 163);
+    font-size: 40px;
+    text-align: center;
+}
+
+footer{
+    background: rgb(40, 42, 55);
+    color: white;
+    padding: 20px;
+    font-family: Roboto;
+}
+
+footer strong{
+    font-size: 20px;
+}
+
+.calle{
+float: right;
+position: relative;
+bottom: 20px;
+}

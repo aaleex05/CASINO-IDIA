@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #555764;
+    height: 100%;
+}
+
+/*----MENU----*/
+.menu{
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", serif;
+    z-index: 1;
+}
+
+.menu nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul {
+    list-style: none;
+    background: rgb(6, 25, 76);
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 2px 10px 20px rgb(18, 41, 76);
+    display: inline-flex;
+    padding: 1em 30px;
+    margin-top: 20px;
+}
+.menu li {
+    padding: 0.5vw 1.2vw;
+
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu nav ul li:hover{
+    background: rgba(255, 255, 255, 0.56);
+    transition: 0.4s ease-in-out;
+    box-shadow: 2px 5px 10px rgb(6, 25, 76);
+    border-radius: 20px;
+}
+
+.menu i{
+    margin-left: 20px;
+}
+
+.login-nav{
+    background: rgba(255, 255, 255, 0.83);
+    border-radius: 40px;
+    padding: 0 20px;
+}
+
+.logo-a{
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 0;
+}
+.logo{
+    
+    z-index: 1;
+    width: 65%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/*****CONTENIDO*****/
+
+.contact-form{
+    background: linear-gradient(
+        50deg,
+        rgba(40,42,55,1) 20%,
+        rgba(40,42,55,0.7)),
+        url(archivos-contacto/fondo-contacto.jpg);
+
+    padding: 63px 63px 300px 63px;
+    width: 501px;
+    height: 19em;
+    margin: 76px 300px 0;
+    border-radius: 30px;
+    box-shadow: 0 10px 70px 2px rgba(40,42,55,0.7);
+}
+
+.form-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20em;
+    gap: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-form form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contacto label{
+    margin-top: 8px;
+    font-size: 15px;
+    color: white;
+}
+
+.contact-form input, textarea{
+    padding: 10px;
+    background: linear-gradient(
+        rgba(74, 76, 94, 0.7) 10%,
+        rgb(88, 92, 117));
+        border: 1px solid lightblue;
+    outline: none;
+    color: white;
+    resize: none;
+}
+
+.contact-form h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 0;
+    font-size: 40px;
+}
+
+.contacto{
+    background: linear-gradient(
+        50deg,
+        rgba(40,42,55,1) 20%,
+        rgba(40,42,55,0.7)),
+        url(archivos-contacto/fondo-contacto.jpg);
+
+    padding: 63px 63px 250px 63px;
+    width: 501px;
+    height: 0;
+    position: absolute;
+    top: 146px;
+    right: 210px;
+    border-radius: 30px;
+    box-shadow: 0 10px 70px 2px rgba(40,42,55,0.7);
+}
+
+.contact-info{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color: white;
+    gap: 30px;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-contacto{
+    margin-top: 20px;
+    cursor: pointer;
+    background: white;
+    transition: 1s;
+}
+
+.btn-contacto:hover{
+    background: linear-gradient(
+        50deg,
+        rgb(56, 58, 65) 20%,
+        rgba(78, 82, 110, 0.7));
+}
+
+.btn-contacto:active{
+    margin-top: 1px;
+}
+
+.mapa{
+    position: absolute;
+    top: 486px;
+    right: 210px;
+}
+
+footer{
+    background: rgb(40, 42, 55);
+    color: white;
+    padding: 20px;
+    font-family: Roboto;
+    margin-top: 60px;
+}
+
+footer strong{
+    font-size: 20px;
+}
+
+.calle{
+float: right;
+position: relative;
+bottom: 20px;
+}
